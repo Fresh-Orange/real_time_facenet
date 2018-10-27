@@ -11,7 +11,8 @@ Detect and identify the face in camera using [facenet](https://github.com/davids
 
 ## How to use the project
 First, download any one of the pretrained facenet model. Second, place your face dataset in `dataset_without_align` directory. And then ...
-| OS    | method |
+
+|    OS    | method |
 |-----------------|--------------|
 | Windows | Modify the model directory path in `train_predict.bat`, then double click it to train model and predict|
 | Linux | Open `train_predic.bat` and you'll know how to run those commands since you are suing linux |
