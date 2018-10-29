@@ -16,16 +16,7 @@ Detect and identify the face in camera using [facenet](https://github.com/davids
 | [谷歌云](https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-) | 0.9965        | VGGFace2      | Inception ResNet v1 |
 
 ## How to use the project(如何使用这个项目)
-First, download any one of the pretrained facenet model. Second, place your face dataset in `dataset_without_align` directory. And then ...
+1. Download any one of the pretrained facenet model. （下载上述任意一个预先训练模型。）
+2. Place your face dataset in `dataset_without_align` directory. （将你自己的人脸数据集放在`dataset_without_align`文件夹.）
+3. Modify the model_dir in `train_predict.py`, then run this file to train model and predict. （修改`train_predict.py`里面的模型路径(model_dir), 然后运行这个文件即可）
 
-|    OS    | method |
-|-----------------|--------------|
-| Windows | Modify the model directory path in `train_predict.bat`, then double click it to train model and predict|
-| Linux | Open `train_predic.bat` and you'll know how to run those commands since you are using linux |
-
-首先，下载上述任意一个预先训练模型。接着，将你自己的人脸数据集放在`dataset_without_align`文件夹. 然后...
-
-|    操作系统    | 方法 |
-|-----------------|--------------|
-| Windows | 修改`train_predict.bat`里面的模型路径, 然后双击即可运行|
-| Linux | 打开`train_predic.bat`然后你应该会知道怎么运行那些命令的，毕竟你都会使用linux了 |
