@@ -15,7 +15,7 @@ Detect and identify the face in camera using [facenet](https://github.com/davids
 | [谷歌云](https://drive.google.com/open?id=1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz) or [百度云](https://pan.baidu.com/s/1k_k6I0d85T7yVLRFovkj3w) | 0.9905        | CASIA-WebFace    | Inception ResNet v1|
 | [谷歌云](https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-) | 0.9965        | VGGFace2      | Inception ResNet v1 |
 
-## How to use the project
+## How to use the project(如何使用这个项目)
 First, download any one of the pretrained facenet model. Second, place your face dataset in `dataset_without_align` directory. And then ...
 
 |    OS    | method |
